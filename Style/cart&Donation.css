@@ -1,0 +1,241 @@
+ :root {
+    --primary-color: #FF8C00;
+    --secondary-color: #4A90E2;
+    --border-color: #dee2e6;
+    --background-light: #f8f9fa;
+    --text-muted: #6c757d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--background-light);
+    line-height: 1.6;
+}
+
+.header {
+            position: relative;
+            height: 450px;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url('/assets/Images/child.png');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+.donation-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.donation-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.donation-header h1 {
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.donation-header p {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+}
+
+h5 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.progress-bar-container {
+    width: 100%;
+    height: 20px;
+    background-color: var(--background-light);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    font-size: 0.9rem;
+    transition: width 0.3s ease;
+}
+
+.progress-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.amount-options {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.amount-option {
+    flex: 1;
+    min-width: 100px;
+}
+
+   .amount-option input[type="radio"] {
+    display: none;
+}
+
+.amount-option label {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    background: var(--background-light);
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.amount-option input[type="radio"]:checked + label {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.custom-amount {
+    margin-top: 1rem;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.dollar-symbol {
+    padding: 0.5rem 1rem;
+    background: var(--background-light);
+    border: 1px solid var(--border-color);
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.input-group input[type="number"] {
+    border-radius: 0 5px 5px 0;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.aid {
+    margin: 2rem 0;
+    padding: 1rem;
+    background: var(--background-light);
+    border-radius: 10px;
+}
+
+.aid small {
+    display: block;
+    margin-top: 0.5rem;
+    color: var(--text-muted);
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-group.full-width {
+    grid-column: 1 / -1;
+}
+
+.card-input {
+    border: 1px solid var(--border-color);
+    padding: 1rem;
+    border-radius: 10px;
+    background: var(--background-light);
+}
+
+.donate-button {
+    background: var(--primary-color);
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+ .custom-card{
+    width: 420px !important;
+    /* background-color: #e9edf1;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 1rem auto; */
+}
+.donate-button:hover {
+    background: #e67e00;
+    transform: translateY(-2px);
+}
+.Blogs{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    .donation-container {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .amount-option {
+        min-width: calc(50% - 0.5rem);
+    }
+} 

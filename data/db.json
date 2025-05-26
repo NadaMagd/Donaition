@@ -1,0 +1,745 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "AhmedRamadan",
+      "role": "Admin",
+      "isActive": true,
+      "email": "ahmedRamdan@example.com",
+      "gender": "male",
+      "phoneNumber": "0100045688",
+      "password": "Ahmed1232@@",
+      "donationInfo": [
+        {
+          "payment Method": "card",
+          "numOfDontion": 4,
+          "totalamount": 2000,
+          "state": "success",
+          "data": "2024-05-31"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Nada Magdy",
+      "role": "campaigner",
+      "isActive": true,
+      "gender": "female",
+      "email": "nada@example.com",
+      "phoneNumber": "0100045688",
+      "password": "hashed_password",
+      "donationInfo": [
+        {
+          "payment Method": "card",
+          "numOfDontion": 4,
+          "totalamount": 2000,
+          "state": "success",
+          "data": "2024-03-31"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Mona abdelazem",
+      "role": "campaigner",
+      "isActive": true,
+      "gender": "female",
+      "email": "Monae@example.com",
+      "phoneNumber": "0100045688",
+      "password": "hashed_password",
+      "donationInfo": [
+        {
+          "payment Method": "Visa",
+          "numOfDontion": 3,
+          "totalamount": 2700,
+          "state": "success",
+          "data": "2024-05-31"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Ziad Ali",
+      "role": "campaigner",
+      "isActive": true,
+      "gender": "male",
+      "email": "ziad23@example.com",
+      "phoneNumber": "0100045688",
+      "password": "hashed_password",
+      "donationInfo": [
+        {
+          "payment Method": "card",
+          "numOfDontion": 2,
+          "totalamount": 2000,
+          "state": "fail",
+          "data": "2024-02-31"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Mena Mahdy",
+      "role": "campaigner",
+      "isActive": true,
+      "gender": "female",
+      "email": "menaMahdy@example.com",
+      "password": "hashed_password",
+      "phoneNumber": "0100045688",
+      "donationInfo": [
+        {
+          "payment Method": "card",
+          "numOfDontion": 4,
+          "totalamount": 2000,
+          "state": "success",
+          "data": "2024-05-31"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Mriahan lotfy",
+      "role": "campaigner",
+      "isActive": true,
+      "gender": "female",
+      "email": "mere123@example.com",
+      "phoneNumber": "0100045688",
+      "password": "hashed_password",
+      "donationInfo": [
+        {
+          "payment Method": "card",
+          "numOfDontion": 4,
+          "totalamount": 2000,
+          "state": "success",
+          "data": "2024-05-31"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Nada emad",
+      "role": "campaigner",
+      "isActive": true,
+      "gender": "female",
+      "email": "nadaEmad345@example.com",
+      "phoneNumber": "0100045688",
+      "password": "hashed_password",
+      "donationInfo": [
+        {
+          "payment Method": "card",
+          "numOfDontion": 4,
+          "totalamount": 2000,
+          "state": "success",
+          "data": "2024-05-31"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "yasmeen Mahmoud",
+      "role": "campaigner",
+      "isActive": true,
+      "gender": "female",
+      "email": "yasmeenMahmoud@example.com",
+      "phoneNumber": "0100045688",
+      "password": "hashed_password",
+      "donationInfo": [
+        {
+          "payment Method": "card",
+          "numOfDontion": 4,
+          "totalamount": 2000,
+          "state": "success",
+          "data": "2024-05-31"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Hassan Ebrahim",
+      "role": "campaigner",
+      "isActive": true,
+      "gender": "male",
+      "email": "Fox23@example.com",
+      "phoneNumber": "0100045688",
+      "password": "hashed_password",
+      "donationInfo": [
+        {
+          "payment Method": "card",
+          "numOfDontion": 4,
+          "totalamount": 2000,
+          "state": "success",
+          "data": "2024-05-31"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Abdallah 3omda",
+      "role": "campaigner",
+      "isActive": true,
+      "gender": "male",
+      "email": "3omda@example.com",
+      "phoneNumber": "0100045688",
+      "password": "hashed_password",
+      "donationInfo": [
+        {
+          "payment Method": "card",
+          "numOfDontion": 4,
+          "totalamount": 2000,
+          "state": "success",
+          "data": "2024-05-31"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Hady mohmed",
+      "role": "campaigner",
+      "isActive": true,
+      "gender": "male",
+      "email": "hady@example.com",
+      "phoneNumber": "0100045688",
+      "password": "hashed_password",
+      "donationInfo": [
+        {
+          "payment Method": "card",
+          "numOfDontion": 4,
+          "totalamount": 2000,
+          "state": "success",
+          "data": "2024-05-31"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "mohaned Mahomed",
+      "role": "campaigner",
+      "isActive": true,
+      "gender": "male",
+      "email": "honda@example.com",
+      "phoneNumber": "0100045688",
+      "password": "hashed_password",
+      "donationInfo": [
+        {
+          "payment Method": "card",
+          "numOfDontion": 4,
+          "totalamount": 2000,
+          "state": "success",
+          "data": "2024-05-31"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "motaz elalfy",
+      "role": "campaigner",
+      "isActive": true,
+      "gender": "male",
+      "email": "motaz@example.com",
+      "phoneNumber": "0100045688",
+      "password": "hashed_password",
+      "donationInfo": [
+        {
+          "payment Method": "card",
+          "numOfDontion": 4,
+          "totalamount": 2000,
+          "state": "success",
+          "data": "2024-05-31"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "yasmeen nafe",
+      "role": "campaigner",
+      "isActive": true,
+      "gender": "female",
+      "email": "yaso@example.com",
+      "phoneNumber": "0100045688",
+      "password": "hashed_password",
+      "donationInfo": [
+        {
+          "payment Method": "card",
+          "numOfDontion": 3,
+          "totalamount": 5000,
+          "state": "success",
+          "data": "2024-09-31"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "jihan Ahmed",
+      "role": "campaigner",
+      "isActive": true,
+      "gender": "female",
+      "email": "jojo@example.com",
+      "phoneNumber": "0100045688",
+      "password": "hashed_password",
+      "donationInfo": [
+        {
+          "payment Method": "pay",
+          "numOfDontion": 2,
+          "totalamount": 500,
+          "state": "fail",
+          "data": "2024-09-31"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Amira mohmmed",
+      "role": "campaigner",
+      "isActive": true,
+      "gender": "female",
+      "email": "mero9@example.com",
+      "phoneNumber": "0100045688",
+      "password": "hashed_password",
+      "donationInfo": [
+        {
+          "payment Method": "Visa",
+          "numOfDontion": 1,
+          "totalamount": 900,
+          "state": "success",
+          "data": "2024-05-31"
+        }
+      ]
+    },
+    {
+      "id": "687d",
+      "name": "nada56",
+      "role": "both",
+      "email": "nadabadr236@gmail.com",
+      "password": "Nada123#",
+      "gender": "female",
+      "phoneNumber": "+201030894464",
+      "isActive": true
+    },
+    {
+      "id": "e8ab",
+      "name": "nadamagdy61",
+      "role": "Donor",
+      "email": "nnnaaa@gmail.com",
+      "password": "Nada123@@",
+      "gender": "female",
+      "phoneNumber": "+201030894464",
+      "isActive": true
+    },
+    {
+      "id": "3ec4",
+      "name": "mona23",
+      "role": "Campaigner",
+      "email": "mona@gmail.com",
+      "password": "Nada123@@",
+      "gender": "female",
+      "phoneNumber": "+201030894464",
+      "isActive": true
+    },
+    {
+      "id": "d5d9",
+      "name": "mouna",
+      "role": "Donor",
+      "email": "mounhabdelazimww@gmail.com",
+      "password": "Nada123@@",
+      "gender": "female",
+      "phoneNumber": "+201030894464",
+      "isActive": true
+    },
+    {
+      "id": "4825",
+      "name": "mona23",
+      "role": "Campaigner",
+      "email": "mounhabdelazimm@gmail.com",
+      "password": "mona45856",
+      "gender": "female",
+      "phoneNumber": "+201030894464",
+      "isActive": true
+    },
+    {
+      "id": "cfd3",
+      "name": "mouna20",
+      "role": "Campaigner",
+      "email": "mounhabdelazimww2p@gmail.com",
+      "password": "minadhuj",
+      "gender": "female",
+      "phoneNumber": "+201030894464",
+      "isActive": true
+    }
+  ],
+  "cases": [
+    {
+      "id": "1",
+      "title": "Medicine",
+      "category": "Health",
+      "image": "download.jpg",
+      "description": "We are suffering from a shortage of wound care medication such as gauze, cotton, antiseptic, and healing ointments, in addition to painkillers. The percentage of wounded has reached a quarter, so we need medicine at the worst possible time.",
+      "location": "Gaza",
+      "creatorId": 1,
+      "goal": 5000,
+      "deadline": "2024-05-31",
+      "isApproved": true,
+      "rewards": [
+        {
+          "id": 1,
+          "numDonation": 4,
+          "title": "gauze",
+          "amount": 2000,
+          "state": "Not complete"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Treatment medications",
+      "category": "Health",
+      "image": "Crutches-sbt-051624-13-1024x760.jpg",
+      "description": "We need medical equipment such as blood sugar, blood pressure, temperature, heart rate monitors, dental equipment, and x-ray equipment in order to live a healthy life.",
+      "location": "Gaza",
+      "creatorId": 1,
+      "goal": 10000,
+      "deadline": "2024-06-20",
+      "isApproved": true,
+      "rewards": [
+        {
+          "id": 3,
+          "title": "blood pressure",
+          "numDonation": 4,
+          "amount": 6000,
+          "state": "soon"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "medical devices",
+      "category": "Health",
+      "image": "Crutches-sbt-051624-13-1024x760.jpg",
+      "description": "We suffer from a shortage of medical solutions, treatment for colds and other flus, treatment for pregnant women such as vitamins, treatment for infants, and milk for children.",
+      "location": "Gaza",
+      "creatorId": 1,
+      "goal": 9000,
+      "deadline": "2024-06-12",
+      "isApproved": true,
+      "rewards": [
+        {
+          "id": 4,
+          "title": "colds",
+          "numDonation": 4,
+          "amount": 700,
+          "state": "Not complete"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Education Books",
+      "category": "Education",
+      "image": "Education1.jpg",
+      "description": "We need educational books for primary school children to help them learn science, religion, prevention, and the Qur’an. We need these books so that we can teach them..",
+      "location": "Gaza",
+      "creatorId": 2,
+      "goal": 4000,
+      "deadline": "2024-06-12",
+      "isApproved": true,
+      "rewards": [
+        {
+          "id": 5,
+          "title": "book",
+          "numDonation": 4,
+          "amount": 700,
+          "state": "Not complete"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "University books",
+      "category": "Education",
+      "image": "Education.jpg",
+      "description": "We need university books in medicine, engineering and other sciences. We are suffering from a lack of money, so we need them to finish university and be able to support our society.",
+      "location": "Gaza",
+      "creatorId": 2,
+      "goal": 8000,
+      "deadline": "2024-07-03",
+      "isApproved": true,
+      "rewards": [
+        {
+          "id": 6,
+          "title": "book",
+          "numDonation": 4,
+          "amount": 8000,
+          "state": "complete"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "University expenses",
+      "category": "Education",
+      "image": "Education2.jpg",
+      "description": "We are expatriates from countries and a war broke out in our country and we were unable to communicate with our families and we are in a university that needs its expenses and housing expenses",
+      "location": "Gaza",
+      "creatorId": 2,
+      "goal": 10000,
+      "deadline": "2024-07-03",
+      "isApproved": true,
+      "rewards": [
+        {
+          "id": 7,
+          "title": "expenses",
+          "numDonation": 4,
+          "amount": 5000,
+          "state": "Not complete"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "School expenses",
+      "category": "Education",
+      "image": "ai-generated-behold-the-graceful-scene-as-the-delicate-hands-of-a-woman-tenderly-cradle-education-free-photo.jpg",
+      "description": "We are expatriates from countries and there was a war in our country and we could not communicate with our families and we need the children’s school expenses",
+      "location": "Gaza",
+      "creatorId": 2,
+      "goal": 8000,
+      "deadline": "2024-06-9",
+      "isApproved": true,
+      "rewards": [
+        {
+          "id": 8,
+          "title": "expenses",
+          "numDonation": 4,
+          "amount": 7000,
+          "state": "soon"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "flour and rice",
+      "category": "food",
+      "image": "food2.jpg",
+      "description": "We need flour and rice to be able to eat and make bread. We are exposed to war and food shortages. We will die of hunger.",
+      "location": "Gaza",
+      "creatorId": 3,
+      "goal": 6000,
+      "deadline": "2024-06-9",
+      "isApproved": true,
+      "rewards": [
+        {
+          "id": 9,
+          "title": "rice",
+          "numDonation": 4,
+          "amount": 3070,
+          "state": "Not complete"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Need food",
+      "category": "food",
+      "image": "food3.jpg",
+      "description": "We need food. We are suffering from famine and every day someone dies of hunger. We need food or livestock and we will cook it. The children and women could not bear it.",
+      "location": "Gaza",
+      "creatorId": 3,
+      "goal": 9000,
+      "deadline": "2024-06-10",
+      "isApproved": true,
+      "rewards": [
+        {
+          "id": 10,
+          "title": "food",
+          "numDonation": 5,
+          "amount": 9000,
+          "state": "complete"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Ramadan cartoon",
+      "category": "food",
+      "image": "food2.jpg",
+      "description": "In the month of Ramadan, we need food to break our fast, and we no longer have food due to the shortage of food supplies as a result of the war and the lack of supplies.",
+      "location": "Gaza",
+      "creatorId": 3,
+      "goal": 6000,
+      "deadline": "2024-06-14",
+      "isApproved": true,
+      "rewards": [
+        {
+          "id": 11,
+          "title": "Ramadan cartoon",
+          "numDonation": 3,
+          "amount": 4070,
+          "state": "soon"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Canned food",
+      "category": "food",
+      "image": "food2.jpg",
+      "description": "We need flour and rice to be able to eat and make bread and Canned food . We are exposed to war and food shortages. We will die of hunger",
+      "location": "Gaza",
+      "creatorId": 3,
+      "goal": 6000,
+      "deadline": "2024-06-1",
+      "isApproved": true,
+      "rewards": [
+        {
+          "id": 12,
+          "title": "Canned",
+          "numDonation": 3,
+          "amount": 4070,
+          "state": "Not complete"
+        }
+      ]
+    },
+    {
+      "id": "1e65",
+      "title": "school",
+      "description": "War is one of the most destructive forces in our world. It leaves behind broken cities, lost lives, and deep emotional scars. While some people see war as a way to gain power or protect their land, the truth is that war causes far more pain than progress.\n\nOne of the biggest damages of war is the loss of innocent lives. Children, women, and elderly people often suffer the most. Bombs destroy homes, schools, and hospitals. Families are forced to leave everything behind and live as refugees in difficult conditions. Many never return to their homes.",
+      "category": "Building",
+      "goal": "345",
+      "location": "Iti",
+      "deadline": "2025-05-26",
+      "image": "gettyimages-1733116694-612x612.jpg",
+      "isApproved": true,
+      "userId": "687d"
+    },
+    {
+      "id": "2667",
+      "title": "donate",
+      "description": "we are need .............................................................................................",
+      "category": "Building",
+      "goal": "4000",
+      "location": "gaza",
+      "deadline": "2025-05-28",
+      "image": "gettyimages-1752159327-612x612.jpg",
+      "isApproved": true,
+      "userId": "687d"
+    },
+    {
+      "id": "ffa4",
+      "title": "donate ",
+      "description": "help plz",
+      "category": "Education",
+      "goal": "9000",
+      "location": "Iti",
+      "deadline": "2025-05-21",
+      "image": "img7.jpeg",
+      "isApproved": true,
+      "userId": "687d"
+    },
+    {
+      "id": "3063",
+      "title": "mmmmm",
+      "category": "Education",
+      "description": "bbbbbbbbbbb",
+      "location": "Egypt",
+      "goal": 7000,
+      "deadline": "2025-05-05",
+      "isApproved": true
+    },
+    {
+      "id": "47ae",
+      "title": "nada",
+      "category": "Health",
+      "description": "badenmuk,odef",
+      "location": "gaza",
+      "goal": 23,
+      "deadline": "2025-05-22",
+      "isApproved": true
+    }
+  ],
+  "pledges": [
+    {
+      "id": "15e9",
+      "userId": "687d",
+      "Name": "nada badr",
+      "email": "nadabadr236@gmail.com",
+      "caseId": null,
+      "amount": 89,
+      "cardNumber": "visa",
+      "cardExpire": null,
+      "cardCvv": null,
+      "state": "success"
+    },
+    {
+      "id": "ea77",
+      "userId": "3ec4",
+      "Name": "nadayuiop badr",
+      "email": "nadabadr236@gmail.com",
+      "caseId": "47ae",
+      "amount": 25,
+      "cardNumber": "card",
+      "cardExpire": null,
+      "cardCvv": 334556788,
+      "state": "success"
+    },
+    {
+      "id": "88f5",
+      "userId": "d5d9",
+      "Name": "nadauiiophjkl magdy Mahmoud badr",
+      "email": "nadabadr236@gmail.com",
+      "caseId": "5",
+      "amount": 200,
+      "cardNumber": "visa",
+      "cardExpire": null,
+      "cardCvv": 1234566889,
+      "state": "success"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "5",
+      "title": "better life",
+      "image": "child.png",
+      "content": "War has always been one of the greatest tragedies in human history. It destroys lives, breaks families, and leaves cities in ruins. In contrast, a world without war promises peace, progress, and a better life for all.\nlife without war means children can grow up safely, without fear of bombs or bullets. They can go to school, play in the streets, and dream freely. Education flourishes in peaceful environments, helping to build intelligent and compassionate future generations.\nWithout war, resources are not wasted on weapons and destruction. Instead, money can be used to improve healthcare, build homes, support the poor, and protect the environment. Nations can invest in technology, science, and culture, making the world a better place for everyone.\nWar creates hate, but peace encourages love, cooperation, and understanding among people of different backgrounds and beliefs. In a peaceful world, dialogue replaces violence, and respect replaces fear.\nIn conclusion, a better life without war is not a dream—it is a goal worth working for. Through peace, we can build a future where every person lives with dignity, hope, and happiness. Let us choose unity over conflict and love over hate.",
+      "author": "Mena Mahdy",
+      "date": "2024-05-05"
+    },
+    {
+      "id": "6",
+      "title": "Starvation: A Silent Crisis",
+      "image": "Education.jpg",
+      "content": "Starvation is one of the most painful and heartbreaking problems facing humanity today. While some parts of the world enjoy food in abundance, millions of people—especially children—go to bed hungry every night. It is a silent crisis that doesn’t always make headlines, but its impact is deep and devastating.Starvation is not just about lack of food—it’s about inequality, war, poverty, and broken systems. In conflict zones, like Gaza, Yemen, and parts of Africa, people suffer from both violence and hunger. War destroys farms, blocks aid, and forces families to flee their homes, leaving them with nothing to eat. Children become weak and sick, and many do not survive.The most tragic part of starvation is that it is preventable. There is enough food in the world to feed everyone. But poor distribution, corruption, and political conflict keep food from reaching those who need it most. In many cases, food is used as a weapon, and innocent people suffer as a result.To fight starvation, we need more than just food donations. We need global action. Governments must work together to end wars, support farmers, invest in clean water and health systems, and ensure that aid reaches those in need. We must also raise awareness and educate others about this crisis.In conclusion, starvation is a human-made disaster. It is a reflection of the choices we make as a global community. A world without hunger is possible—if we choose compassion, justice, and peace. Let’s not wait for more lives to be lost. Let’s act now.",
+      "author": "Mriahan lotfy",
+      "date": "2024-05-06"
+    },
+    {
+      "id": "7",
+      "title": "The Power of Community Support",
+      "image": "gettyimages-1741063361-612x612.jpg",
+      "content": "Community support is essential for charitable organizations. By coming together as a community, we can amplify our impact and create lasting change in the lives of those in need.",
+      "author": "Nada emad",
+      "date": "2024-05-07"
+    },
+    {
+      "id": "8",
+      "title": "The Importance of Transparency in Charitable Organizations",
+      "image": "Group 161.png",
+      "content": "Transparency is crucial for building trust between donors and charitable organizations. Donors should feel confident that their contributions are being used effectively and responsibly.",
+      "author": "yasmeen Mahmoud",
+      "date": "2024-05-08"
+    },
+    {
+      "id": "9",
+      "title": "The Damaging Impact of War",
+      "image": "Education.jpg",
+      "content": "War is one of the most destructive forces in our world. It leaves behind broken cities, lost lives, and deep emotional scars. While some people see war as a way to gain power or protect their land, the truth is that war causes far more pain than progress.One of the biggest damages of war is the loss of innocent lives. Children, women, and elderly people often suffer the most. Bombs destroy homes, schools, and hospitals. Families are forced to leave everything behind and live as refugees in difficult conditions. Many never return to their homes.War also destroys a country’s economy. Factories and farms stop working, and people lose their jobs. Food becomes harder to find, and prices rise. This leads to hunger, poverty, and sickness. Healthcare systems collapse, and people cannot get the treatment they need.The emotional damage of war is just as serious. Many people who live through war suffer from trauma and fear for the rest of their lives. Children grow up without education or safety, and they carry the pain with them into adulthood.In short, war never truly ends when the fighting stops. Its effects stay for years, sometimes for generations. If we want a better future, we must work for peace, understanding, and cooperation—not conflict and destruction.\nWe need to invest in education, healthcare, and community support to heal the wounds of war. We must learn from the past and choose dialogue over violence. Only then can we build a world where everyone can live in peace and security.",
+      "author": "Nada Magdy",
+      "date": "2024-05-09"
+    },
+    {
+      "id": "10",
+      "title": "The Impact of War on Children",
+      "image": "Education.jpg",
+      "content": "War has a devastating impact on children. They are often the most vulnerable victims, suffering from physical and emotional trauma, displacement, and loss of education.",
+      "author": "AhmedRamadan",
+      "date": "2024-05-10"
+    }
+  ]
+}

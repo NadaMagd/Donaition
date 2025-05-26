@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #47332C;
+    --secondary-color: #346c91;
+    --third-color: #4e5c63;
+    --white-color: white;
+    --danger-color: #FF3D00;
+    --light-blue: #55ACEE;
+    --dark--blue: #1877F2;
+    --btn-color: #1e5aa8;
+    --dark--brown: #a37f7f;
+    --light--brown: #717070;
+    --light--gray: #94928F;
+    --op--gray: #D9D9D9;
+    --light--yellow: #FFF8EB;
+    --degree-one-white: #F6F4EE;
+    --card--color: #FFFBF9;
+
+}
+
+.header4 {
+    background-image: url("/assets/images/aboutbackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+
+}
+
+.header__background {
+    background-color: var(--third-color);
+    width: 100%;
+    height: 50vh;
+    opacity: .5;
+    text-align: center;
+}
+
+.header__logo {
+    margin-top: 5%;
+}
+
+.signInForm {
+    display: flex;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -150px;
+}
+
+.signInForm__Div {
+    width: 550px;
+    border: 2px rgb(183, 186, 194) solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 2.3rem;
+}
+
+.signInForm__information {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.signInForm__information h4 {
+    color: var(--btn-color);
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 25px;
+}
+
+.signInForm__information h5 {
+    color: var(--light--brown);
+
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+
+.signInForm__Form {
+    padding: 5px;
+}
+
+.Form__email,
+.Form__Name,
+.Form__password,
+.Form__confirmPassword,
+.Form__button{
+width: 100%;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+    margin-top: 1.2rem;
+    /* margin-left: 65px; */
+}
+
+#Email,
+#name,
+#password,
+#ConfirmPassword,
+#Username ,
+#gender,
+ #role,
+ #phoneNum,
+ #submitbtn,
+ #passwordLogin,
+#UsernameLogin
+ {
+    width: 100% !important;
+    height: 35px !important;
+    border-radius: 6px !important;
+    border: 1px solid rgb(91, 105, 231) !important;
+    margin-top: 8px !important;
+    outline: none   !important;
+}
+
+.Form__password i,
+.Form__confirmPassword i {
+    position: relative;
+    top: -27px;
+    left: 26.2rem;
+    font-size: 13px;
+    z-index: 222;
+}
+
+.Form__terms {
+    display: flex;
+    margin-top: 1.2rem;
+    gap: .3rem;
+}
+
+.Form__terms p {
+    color: var(--light--gray);
+    font-size: 12px;
+}
+
+.Form__terms a {
+    font-size: 12px;
+}
+
+/* .Form__button {
+    margin-top: 1.2rem;
+} */
+
+label {
+
+    font-size: 15px;
+}
+
+.Button {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    background-color: var(--secondary-color);
+    color: #d8dadf;
+    border: 1px solid snow;
+    border-radius: 3px;
+
+    font-size: 13px;
+}
+
+.Form__socailMedia {
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    gap: 1.2rem;
+}
+
+.Form__socailMedia h5 {
+    color: var(--light--gray);
+
+    padding: 2px 16px;
+    margin-top: 18px;
+}
+
+.Facbook i {
+    width: 41px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: #364574;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.google i {
+    width: 41px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: #cc563d;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.github i {
+    width: 41px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.twitter i {
+    width: 41px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: #299cdb;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.FooterSign {
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.FooterSign img {
+   width: 300px;
+}
+
+.FooterSign__sign {
+    display: flex;
+    gap: 0.4rem;
+
+    font-size: 15px;
+}
+
+.FooterSign__sign p {
+    color: #878a99;
+}
+
+.Forget_Password {
+    position: relative;
+    left: 348px;
+    float: inline-end;
+    top: 35px;
+    text-decoration: none;
+    color: gray;
+    font-family: Poppins;
+}
+
+.Form__remeber {
+    display: flex;
+    gap: .3rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.Form__remeber input {
+    width: 15px;
+    border-radius: 6px;
+    border: 1px solid rgb(242, 237, 237);
+}
+input{
+    outline: none !important;
+}
+.Form__remeber h5 {
+    font-family: Poppins;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0.1px;
+}
+
+.Reseat__logo {
+    text-align: center;
+}
+
+.Form__confirmEmail {
+    font-family: Poppins;
+    height: 45px;
+    background-color: #fef4e4;
+    text-align: center;
+    padding-top: 15px;
+    color:var(--secondary-color);
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.Password__hint {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    color: gray;
+}
+
+.FooterAuth {
+
+    text-align: center;
+}
+
+.FooterAuth h1 {
+    font-size: 90px;
+    color:var(--white-color);
+    ;
+    font-family: Poppins;
+    margin: 10px;
+}
+
+.FooterAuth h3 {
+    font-size: 30px;
+    color:var(--white-color);
+    ;
+    font-family: Poppins;
+    margin: 10px;
+}
+
+.FooterAuth p {
+    font-size: 19px;
+    color:var(--danger-color);
+    ;
+    font-family: Poppins;
+    margin: 10px;
+}
+
+.anoterButton {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    gap: 0.7rem;
+    margin-left: 59px;
+    border: 1px white;
+}
+
+.blockError500 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.blockError500__Address {
+    font-size: 230px;
+    color: gray;
+}
+
+
+.Error500Button {
+    position: relative;
+    left: 30%;
+}
+.ErrooHeadline{
+    color: #000 !important;
+}

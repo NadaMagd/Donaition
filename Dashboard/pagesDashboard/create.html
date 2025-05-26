@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Dashboard/style/Dashboard.css">
+    <link rel="stylesheet" href="/Style/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+        <header class="NavBar container-fluid">
+            <div class="d-flex flex-row align-items-center">
+                <button id="toggle"><img src="/assets/images/Burger.png" alt="burgerIcon"></button>
+              <a href="/index.html"><img src="/assets/images/Vectorw.svg" alt="logo"></a>
+                <h3>Admin Dashboard</h3>
+            </div>
+        </header>
+        <main class="MainPage">
+            <aside class="PagesDashboard " id="aside">
+                <div class="sidebar d-flex flex-column">
+                <a href="home.html">Home</a>
+                <a href="Donation.html">Donation </a>
+                <a href="Cases.html">Cases</a>
+                <a href="Donaters.html">Donors</a>
+                <a href="create.html">Add Cases</a>
+                <a href="Users.html">Users</a>
+                <a href="request.html">request</a>
+                <a href="requestCasa.html">request Cases</a>
+                </div>
+            </aside>
+            <section class="Contant">
+                <form action="">
+                    <div class="Part_image" id="Part_image">
+                        <p>Upload image</p>
+                        <label for="uploadImade"></label>
+                        <div id="imageUploading">
+                            <input type="file" id="image" multiple>
+                            <img src="" alt="" id="ImageCasas" >
+                        </div>
+                    </div>
+                    <div class="Part_title">
+                        <label for="title">title</label>
+                        <input type="text" id="title">
+                    </div>
+                    <div class="Part_cat">
+                        <select name="Category" id="Category" title="Category">
+                            <option value="Healthy">Healthy</option>
+                            <option value="Education">Education</option>
+                            <option value="Food">Food</option>
+                            <option value="Unemployment">Unemployment</option>
+                        </select>
+                    </div>
+                    <div class="Part_amount">
+                        <label for="number">required amount</label>
+                        <input type="number" id="amount">
+                    </div>
+                    <div class="Part_data">
+                        <label for="title">deadline</label>
+                        <input type="date" id="date">
+                    </div>
+                    <div class="Part_description">
+                        <label for="description">description</label>
+                        <textarea name="description" id="description"></textarea>
+                    </div>
+                    <div class="Part_button">
+
+                        <button id="sendData" type="submit">Add</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <script src="/Dashboard/scripts/Dashbiard.js" defer></script>
+        <script type="module" src="/Dashboard/scripts/CreateCases.js" defer></script>
+    </body>
+</body>
+
+</html>

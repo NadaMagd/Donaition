@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/Style/bootstrap.min.css" />
+  <link rel="stylesheet" href="/Style/home.css" />
+  <link rel="stylesheet" href="/Style/footer.css" />
+  <script src="/Js/premmision.js" defer></script>
+  <link rel="stylesheet" href="/Style/auth.css">
+  <title>Profile</title>
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: 'Segoe UI', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .profile-container {
+      max-width: 800px;
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      text-align: center;
+      margin: 120px auto 60px;
+      position: relative;
+      transition: transform 0.3s ease;
+    }
+
+    .profile-container:hover {
+      transform: translateY(-5px);
+    }
+
+    .profile-info {
+      padding: 20px;
+    }
+
+    .profile-info h4 {
+      font-weight: bold;
+      color: var(--primary-color);
+      font-size: 2rem;
+      margin-bottom: 30px;
+      position: relative;
+      padding-bottom: 15px;
+    }
+
+    .profile-info h4::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 3px;
+      background-color: var(--primary-color);
+      border-radius: 2px;
+    }
+
+    .profile-info p {
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+      color: #555;
+      padding: 15px;
+      background-color: #f8f9fa;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .profile-info p:hover {
+      background-color: #e9ecef;
+      transform: translateX(10px);
+    }
+
+    .profile-label {
+      font-weight: bold;
+      color: var(--primary-color);
+      margin-right: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .profile-container {
+        margin: 100px 20px 40px;
+        padding: 20px;
+      }
+
+      .profile-info h4 {
+        font-size: 1.5rem;
+      }
+
+      .profile-info p {
+        font-size: 1rem;
+      }
+    }
+
+    .site-title {
+      font-family: 'Segoe UI', 'Montserrat', Arial, sans-serif;
+      font-size: 2.7rem;
+      font-weight: 900;
+      letter-spacing: 1.5px;
+      text-align: center;
+      margin-bottom: 1.2rem;
+      background: linear-gradient(90deg, #4a90e2 0%, #2c3e50 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      text-shadow: 0 4px 16px rgba(44,62,80,0.15);
+      transition: transform 0.2s;
+    }
+    .site-title:hover {
+      transform: scale(1.04) rotate(-1deg);
+    }
+    .site-title .donate {
+      color: #4a90e2;
+      background: none;
+      -webkit-text-fill-color: #4a90e2;
+    }
+    .site-title .hope {
+      color: #2c3e50;
+      background: none;
+      -webkit-text-fill-color: #d4dce4;
+    }
+    .site-title-navbar {
+      font-size: 1.5rem;
+      margin-right: 1rem;
+      margin-bottom: 0;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .NavBar__items a {
+      color: var(--white-color);
+      text-decoration: none;
+      font-weight: 500;
+      font-size: .7rem;
+      transition: all 0.3s ease;
+      padding: 0.4rem 0;
+      position: relative;
+      display: inline-block;
+    }
+    #DashboardIcon {
+      width: 50px !important;
+      height: 50px;
+    border-radius: 50%;
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary NavBar">
+      <div class="container NavBar__pages">
+        <span class="site-title site-title-navbar"><span class="donate">Donate</span><span class="hope">Hope</span></span>
+        <img src="/assets/images/Vectorw.svg" alt="logo" class="logo" />
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <img src="/assets/images/Burger1.png" alt="" />
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav NavBar__items">
+            <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="/pages/causes.html">Causes</a></li>
+            <li class="nav-item"><a class="nav-link" href="/pages/gallary.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="/pages/gallary.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="/pages/blog.html">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="/pages/About.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="/pages/contact.html">Contact us</a></li>
+            <li class="nav-item"><a class="nav-link active activeItem" aria-current="page" href="/pages/profile.html"><img src="/assets/images/Vector1.svg" alt="user" /></a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="/DashboardCompainger/pagesCompainger/Cases.html" target="_blank"  id="DashboardIcon"><img src="/assets/images/icons8-dashboard-50.png" alt="user"></a>
+            </li>
+              <li class="nav-item">
+                            <a class="nav-link" target="_blank" ><img
+                                    src="/assets/images/icons8-logout-50 (2).png" alt="logoutBtn" id="logoutBtn" style="color: #f5f3ef; width: 20px;"></a>
+                        </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="profile-container">
+    <div class="profile-info">
+      <h4 id="profileName">User Name</h4>
+      <p><span class="profile-label">Email:</span> <span id="profileEmail"></span></p>
+      <p><span class="profile-label">Password:</span> <span id="profilePassword"></span></p>
+      <p><span class="profile-label">Gender:</span> <span id="profileGender"></span></p>
+      <p><span class="profile-label">Phone:</span> <span id="profilePhone"></span></p>
+      <p><span class="profile-label">Role:</span> <span id="profileRole"></span></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <section class="summary d-flex flex-column flex-sm-column flex-md-column justify-content-between flex-lg-row flex-xl-row justify-content-around vstack gap-3 hstack gap-3">
+      <div class="Footer_firstDiv">
+        <img src="/assets/images/Vectorw.svg" alt="logo" class="footer-logo">
+        <h5>Contact us</h5>
+        <ul>
+          <li>
+            Egypt,El-sharqia
+            ZagZig
+          </li>
+          <li>
+            Donate@gmail.com
+          </li>
+          <li>
+            +917811111190
+          </li>
+        </ul>
+      </div>
+      <div class="Footer_SecondDiv">
+        <h5>Category</h5>
+        <ul>
+          <li>
+            Health
+          </li>
+          <li>
+            Food
+          </li>
+          <li>
+            building
+          </li>
+          <li>
+            Education
+          </li>
+        </ul>
+      </div>
+      <div class="Footer_SecondDiv">
+        <h5>Social Media</h5>
+        <div class="footer-social-icons">
+          <a href="#"><img src="/assets/images/Facebook.svg" alt="Facebook"></a>
+          <a href="#"><img src="/assets/images/Twitter.svg" alt="Twitter"></a>
+          <a href="#"><img src="/assets/images/Tiktok.svg" alt="Tiktok"></a>
+          <a href="#"><img src="/assets/images/Instagram.svg" alt="Instagram"></a>
+        </div>
+      </div>
+    </section>
+    <div class="copyRight d-flex flex-column flex-sm-column flex-md-column justify-content-between flex-lg-row flex-xl-row justify-content-around vstack gap-3 hstack gap-3">
+      <h4>Privacy & Policy|Terms & Conditions</h4>
+      <h5>© 2024 copyright all right reserved</h5>
+    </div>
+  </footer>
+
+  <script src="/Js/bootstrap.bundle.min.js"></script>
+  <script src="/Js/profile.js" defer></script>
+  <script src="/Js/premmision.js" defer></script>
+
+</body>
+</html>

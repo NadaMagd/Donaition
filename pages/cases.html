@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Style/bootstrap.min.css">
+    <link rel="stylesheet" href="/Style/home.css">
+    <!-- <link rel="stylesheet" href="/Style/gallay.css"> -->
+    <link rel="stylesheet" href="/Style/Cases.css">
+    <script src="/Js/bootstrap.bundle.min.js"></script>
+      <!-- <script src="/Js/premmision.js" defer></script> -->
+          <link rel="stylesheet" href="/Style/auth.css">
+    <title>Cases</title>
+    <style>
+      .site-title {
+        font-family: 'Segoe UI', 'Montserrat', Arial, sans-serif;
+        font-size: 2.7rem;
+        font-weight: 900;
+        letter-spacing: 1.5px;
+        text-align: center;
+        margin-bottom: 1.2rem;
+        background: linear-gradient(90deg, #4a90e2 0%, #2c3e50 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        text-shadow: 0 4px 16px rgba(44,62,80,0.15);
+        transition: transform 0.2s;
+      }
+      .site-title:hover {
+        transform: scale(1.04) rotate(-1deg);
+      }
+      .site-title .donate {
+        color: #4a90e2;
+        background: none;
+        -webkit-text-fill-color: #4a90e2;
+      }
+      .site-title .hope {
+        color: #2c3e50;
+        background: none;
+        -webkit-text-fill-color: #d4dce4;
+      }
+      .site-title-navbar {
+        font-size: 1.5rem;
+        margin-right: 1rem;
+        margin-bottom: 0;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      
+    </style>
+</head>
+<body>
+<header class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary NavBar">
+            <div class="container NavBar__pages">
+                <span class="site-title site-title-navbar"><span class="donate">Donate</span><span class="hope">Hope</span></span>
+                <img src="/assets/images/Vectorw.svg" alt="logo" class="logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="/assets/images/Burger1.png" alt="" srcset="">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav NavBar__items">
+                        <li class="nav-item">
+                            <a class="nav-link"   href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active activeItem" aria-current="page" href="/pages/causes.html" target="_blank">Cases</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/gallary.html" target="_blank">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/pages/blog.html" target="_blank">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/pages/About.html" target="_blank">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/pages/contact.html" target="_blank">Contact us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/pages/Profile.html" target="_blank"><img
+                                    src="/assets/images/Vector1.svg" alt="user"> </a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="/Dashboard/pagesDashboard/home.html" target="_blank" ><img
+                                    src="/assets/images/icons8-dashboard-50.png" alt="user" id="DashboardIcon"> </a>
+                        </li>
+                          <li class="nav-item">
+                            <a class="nav-link" target="_blank" ><img
+                                    src="/assets/images/icons8-logout-50 (2).png" alt="logoutBtn" id="logoutBtn" style="color: #f5f3ef; width: 20px;"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero2"></section>
+            <section class="mostNeeded container py-4">
+            <div class="info  text-center">
+                <h2>Recent Cases</h2>
+                <p>We are helps those pepole who have no hope</p>
+            </div>
+            <select id="categoryFilter">
+  <option value="all">All</option>
+  <option value="Health">Health</option>
+  <option value="Education">Education</option>
+  <option value="building">Building</option>
+  <option value="food">Food</option>
+</select>
+<section>
+            <div class="cards">
+                <div class="card" style="width: 18rem;">
+                </div>
+            </div>
+        </section>
+        <section id="pagination"></section>
+    </main>
+        <footer class="footer">
+        <section class="summary d-flex flex-column flex-sm-column flex-md-column justify-content-between flex-lg-row flex-xl-row justify-content-around vstack gap-3 hstack gap-3">
+            <div class="Footer_firstDiv">
+                <img src="/assets/images/Vectorw.svg" alt="logo" class="footer-logo">
+                <h5>Contact us</h5>
+                <ul>
+                    <li>
+                        Egypt,El-sharqia
+                        ZagZig
+                    </li>
+                    <li>
+                        Donate@gmail.com
+                    </li>
+                    <li>
+                        +917811111190
+                    </li>
+                </ul>
+            </div>
+            <div class="Footer_SecondDiv">
+                <h5>Category</h5>
+                <ul>
+                    <li>
+                        Health
+                    </li>
+                    <li>
+                        Food
+                    </li>
+                    <li>
+                        building
+                    </li>
+                    <li>
+                        Education
+                    </li>
+                </ul>
+            </div>
+            <div class="Footer_SecondDiv">
+                <h5>Social Media</h5>
+                <div class="footer-social-icons">
+                    <a href="#"><img src="/assets/images/Facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img src="/assets/images/Twitter.svg" alt="Twitter"></a>
+                    <a href="#"><img src="/assets/images/Tiktok.svg" alt="Tiktok"></a>
+                    <a href="#"><img src="/assets/images/Instagram.svg" alt="Instagram"></a>
+                </div>
+            </div>
+        </section>
+        <div class="copyRight d-flex flex-column flex-sm-column flex-md-column justify-content-between flex-lg-row flex-xl-row justify-content-around vstack gap-3 hstack gap-3">
+            <h4>Privacy & Policy|Terms & Conditions</h4>
+            <h5>© 2024 copyright all right reserved</h5>
+        </div>
+    </footer>
+    
+    <script src="/Js/displayCasa.js" defer></script>
+</body>
+</html>

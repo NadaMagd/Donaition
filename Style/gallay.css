@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #485283;
+    --secondary-color: #213966;
+    --third-color: #3c415e;
+    --white-color: white;
+    --danger-color: #222f5a;
+    --light-blue: #55ACEE;
+    --dark--blue: #1877F2;
+    --btn-color:
+     #428bcf;
+    --dark--brown: #333333;
+    --light--brown: #717070;
+    --light--gray: #455468;
+    --op--gray: #D9D9D9;
+    --light--yellow: #555fb9;
+    --degree-one-white: #F6F4EE;
+    --card--color: #FFFBF9;
+
+}
+
+h4{
+    padding: 30px;
+}
+.color{
+    color: var(--secondary-color);
+}
+.images{
+    background-image: url(/assets/images/aboutbackground.png);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    margin-top: 30px;
+}
+.images__info {
+    margin-bottom: 30px;
+}
+.images__info h4 {
+color: #222f5a;
+}
+.pagination{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+    text-align: center;
+    margin-left: 50%;
+}
+.pagination div{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid var(--btn-color);
+    background-color: var(--light--yellow);
+
+}
+.dasbutton{
+background-color: var(--danger-color);
+padding: 20px;
+border-radius: 5px;
+color: var(--white-color);
+}
+
+.info p {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 1rem 0;
+    opacity: 0;
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: 0.2s;
+}

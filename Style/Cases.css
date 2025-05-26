@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+        :root {
+            --primary-color: #121c54;
+            --secondary-color: #1e2a6b;
+            --third-color: #2a3782;
+            --white-color: white;
+            --danger-color: #ff3d00;
+            --light-blue: #3a4a9c;
+            --dark-blue: #121c54;
+            --btn-color: #2a3782;
+            --dark-brown: #121c54;
+            --light-brown: #3a4a9c;
+            --light-gray: #e8eaf6;
+            --op-gray: #c5cae9;
+            --light-yellow: #e8eaf6;
+            --degree-one-white: #f5f6fa;
+            --card-color: #ffffff;
+            --shadow-sm: 0 2px 4px rgba(18, 28, 84, 0.1);
+            --shadow-md: 0 4px 6px rgba(18, 28, 84, 0.1);
+            --shadow-lg: 0 10px 15px rgba(18, 28, 84, 0.1);
+            --transition: all 0.3s ease;
+        }
+
+
+.hero2 {
+    position: relative;
+    height: 300px;
+    margin-top: 80px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("/assets/images/aboutbackground.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+
+.form-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #eee;
+}
+
+.tab {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -2px;
+}
+#categoryFilter{
+    width: 280px;
+    margin-left: 25px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    background-color: var(--dark-brown);
+    color: antiquewhite;}
+
+.tab.active {
+    color: var(--main-color);
+    border-bottom-color: var( --primary-color)!important;
+}
+
+.form-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 8px;
+    color: #666;
+}
+
+.form-case {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.form-case label {
+    color: #666;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.gender-options {
+    display: flex;
+    gap: 15px;
+}
+
+.gender-option {
+    flex: 1;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #f5f5f5;
+}
+
+.gender-option.selected {
+    background-color: var(--main-color);
+    color: white;
+    border-color: var(--main-color);
+}
+
+.contact-preference {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.contact-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.upload-section {
+    margin-top: 30px;
+}
+
+.upload-container {
+    border: 2px dashed #ddd;
+    padding: 40px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 12px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+
+.btn-secondary:hover {
+    background-color: var(--light-gray);
+}
+#pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 3rem 0;
+}
+
+#pagination div {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+#pagination div:hover {
+    background: var(--main-color);
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(18, 28, 84, 0.2);
+}
+
+#pagination div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    transform: translateX(-100%);
+    transition: transform 0.6s ease;
+}
+.cardCategory h3{
+padding-left: 10px;
+color: #121c54 ;
+font-size: 30px;
+margin: 10px;
+}
+.cardCategory p{
+padding-left: 10px;
+color: #404043 ;
+font-size: 15px;
+margin: 10px;
+}
+.cardCategory button{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+ font-size: 18px;
+    border-radius: 13px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid #121c54;
+    padding: 10px;
+}
+.cardCategory button:hover{
+     background-color: var(--dark-blue);
+    color: var(--white-color);
+}
+.cardCategory h5{
+padding-left: 10px;
+color: #796004 ;
+font-size: 15px;
+margin: 10px;
+padding-bottom: 10px;
+}
+
+#pagination div:hover::before {
+    transform: translateX(100%);
+}
+
+#pagination div.active {
+    background: var(--main-color);
+    color: white;
+    border-color: var(--main-color);
+    box-shadow: 0 4px 15px rgba(18, 28, 84, 0.2);
+}
+
+@media (max-width: 768px) {
+    .pagination div {
+        width: 35px;
+        height: 35px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .pagination {
+        gap: 0.5rem;
+    }
+    
+    .pagination div {
+        width: 30px;
+        height: 30px;
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 768px) {
+    .form-section {
+        grid-template-columns: 1fr;
+    }
+
+    .gender-options {
+        flex-direction: column;
+    }
+}

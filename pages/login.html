@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/Style/bootstrap.min.css">
+    <link rel="stylesheet" href="/Style/home.css">
+    <link rel="stylesheet" href="/Style/gallay.css">
+    <link rel="stylesheet" href="/Style/auth.css">
+     <link rel="stylesheet" href="/assets/fontawason/css/all.min.css">
+    <script src="/Js/bootstrap.bundle.min.js"></script>
+    <title>login</title>
+</head>
+<body>
+    <section class="header header4">
+        <div class="header__background"> <img class="header__logo" src="/assets/images/Vectorw.svg"></div>
+        <section class="signInForm">
+        <div class="signInForm__Div">
+            <div class="signInForm__information">
+            <h4 >Welcome Back !</h4>
+            <h5>Sign in to continue to Donation.</h5>
+        </div>
+        <div class="signInForm__Form">
+            <form >
+               <div class="Form__Name">
+                            <label for="name">Username </label>
+                            <input type="text" id="UsernameLogin" name="name" required>
+                    <a href="ForgetPassword.html" class="Forget_Password">Forget Password?</a>
+                </div>
+                <div class="Form__password">
+                    <label for="password">Password</label>
+                    <input type="password" id="passwordLogin" name="password" required>
+                    <i class="far fa-eye" id="togglePassword" style=" cursor: pointer;"></i>
+                </div>
+                <div class="Form__remeber">
+                    <input type="checkbox" name="check" class="Form__check"><h5>Remember me</h5>
+
+                </div>
+                <div class="Form__button">
+                    <button type="submit" class="Button" id="LoginBtn">login</button>
+                </div>
+                <div class="Form__socailMedia">
+                    <h5>Sign in with </h5>
+                    <span>
+                        <a href="#" class="google" style="text-align: center;"><i class="fa-brands fa-google"></i></a>
+                        <a href="#" class="Facbook"style="text-align: center;" ><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="github" style="text-align: center;"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="twitter" style="text-align: center;"><i class="fa-brands fa-twitter"></i></a>
+                    </span>
+                </div>
+            </form>
+        </div>
+        </div>
+    </section>
+    <section class="FooterSign">
+        <span class="FooterSign__sign">
+            <p>Don't have an account</p><a href="Register.html">Sign up</a>
+        </span>
+    </section>
+    </section>
+    <script src="/Js/funcaions.js"></script>
+    <script type="module" src="/Js/auth.js"></script>
+     <script src="/Js/premmision.js"></script>
+</body>
+</html>

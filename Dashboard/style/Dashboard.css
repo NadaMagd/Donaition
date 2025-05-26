@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #121c54;
+    --secondary-color: #1e2a6b;
+    --third-color: #2a3782;
+    --white-color: white;
+    --light-gray: #e8eaf6;
+    --dark-gray: #c5cae9;
+}
+
+.NavBar {
+    padding: 18px;
+    background-color: var(--main-color);
+    color: var(--white-color);
+}
+
+.NavBar div {
+    gap: 1.4rem !important;
+}
+
+.NavBar img {
+    margin-left: 20px;
+    width: 70px;
+}
+
+.NavBar h3 {
+    margin-top: 5px;
+    font-size: 24px;
+    color: var(--white-color);
+}
+
+.NavBar button {
+    width: 60px;
+    color: var(--white-color);
+}
+
+.MainPage {
+    display: grid;
+    grid-template-columns: .25fr 3fr;
+}
+
+.sidebar {
+    border-right: 1px solid var(--dark-gray);
+   gap: 2rem !important;
+    position: relative;
+  
+    height: 110vh;
+    color: white;
+    background-color: var(--main-color);
+}
+
+.PagesDashboard {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    display: none;
+    position: absolute;
+    background-color: var(--main-color);
+    z-index: 100;
+    text-align:left;
+    width: 200px;
+}
+
+.PagesDashboard.show {
+    transform: translateX(0);
+    opacity: 1;
+    display: block;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color:white;
+    padding-left: 15px;
+}
+
+.sidebar a:hover {
+    color: var(--secondary-color);
+}
+
+.image {
+    width: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+#donationChart{
+    margin-top: 50px;
+    width: 300px !important;
+    height: 300px !important;
+}
+#userGenderChart{
+    width: 600px !important;
+margin-top: 50px;
+}
+#donationByCategoryChart{
+      width: 500px !important;
+    height: 295px !important;
+    margin-left: 27%;
+    margin-top: 50px;
+}
+.table-row {
+    background-color: var(--light-gray) !important;
+}
+
+.form-section {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.Part_image p {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#imageUploading input[type="file"] {
+    margin-bottom: 10px;
+}
+.Contant{
+   padding: 20px; 
+}
+#ImageCasas {
+    display: block;
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.Part_button {
+    text-align: center;
+}
+
+button[type="submit"] {
+    background-color: #1A237E;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+@media screen and (max-width: 640px) {
+    .NavBar button {
+        display: block;
+    }
+
+    .PagesDashboard {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 640px)and (max-width:768px) {
+    .NavBar button {
+        display: block;
+    }
+
+    .PagesDashboard {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px)and (max-width:1024px) {
+    .NavBar button {
+        display: none;
+    }
+
+    .PagesDashboard {
+        transform: none;
+        opacity: 1;
+        display: block;
+        position: relative;
+        height: auto;
+    }
+
+    .PagesDashboard.show {
+        transform: none;
+    }
+}
+
+@media screen and (min-width: 1024px)and (max-width:1280px) {
+    .NavBar button {
+        display: none;
+    }
+
+    .PagesDashboard {
+        transform: none;
+        opacity: 1;
+        display: block;
+        position: relative;
+        height: auto;
+    }
+
+    .PagesDashboard.show {
+        transform: none;
+    }
+}
+
+@media (min-width: 1280px) {
+    .NavBar button {
+        display: none;
+    }
+
+    .PagesDashboard {
+        transform: none;
+        opacity: 1;
+        display: block;
+        position: relative;
+        height: auto;
+    }
+
+    .PagesDashboard.show {
+        transform: none;
+    }
+}

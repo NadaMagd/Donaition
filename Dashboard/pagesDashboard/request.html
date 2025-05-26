@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Dashboard/style/Dashboard.css">
+    <link rel="stylesheet" href="/Style/bootstrap.min.css">
+    <title>requests</title>
+</head>
+
+<body>
+    <header class="NavBar container-fluid">
+        <div class="d-flex flex-row align-items-center">
+            <button id="toggle"><img src="/assets/images/Burger.png" alt="burgerIcon"></button>
+           <a href="/index.html"><img src="/assets/images/Vectorw.svg" alt="logo"></a>
+            <h3>Admin Dashboard</h3>
+        </div>
+    </header>
+    <main class="MainPage">
+        <aside class="PagesDashboard " id="aside">
+            <div class="sidebar d-flex flex-column">
+                <a href="home.html">Home</a>
+                <a href="Donation.html">Donation </a>
+                <a href="Cases.html">Cases</a>
+                <a href="Donaters.html">Donors</a>
+                <a href="create.html">Add Cases</a>
+                <a href="Users.html">Users</a>
+                <a href="request.html">request</a>
+                <a href="requestCasa.html">request Cases</a>
+            </div>
+        </aside>
+        <section class="Contant">
+            <table class="table table-striped" id="table">
+                <thead>
+                    <th>id</th>
+                    <th>Name</th>
+                    <th>email</th>
+                    <th>role</th>
+                    <th>phone</th>
+                    <th>Gender</th>
+                    <th>Active</th>
+                    <th>Action</th>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+            <div id="pagination"></div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/Dashboard/scripts/Dashbiard.js" defer></script>
+    <script src="/Dashboard/scripts/UsersDashbord.js" defer></script>
+</body>
+</html>
