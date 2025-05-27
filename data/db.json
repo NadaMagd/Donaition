@@ -652,6 +652,17 @@
       "goal": 23,
       "deadline": "2025-05-22",
       "isApproved": true
+    },
+    {
+      "id": "8e6b",
+      "title": "nz",
+      "category": "Health",
+      "description": "qqqqqqqqqqqqqqqqqqqqqqqqqq",
+      "location": "gaza",
+      "goal": 22222222,
+      "image": "/food4.jpg",
+      "deadline": "2025-05-30",
+      "isApproved": false
     }
   ],
   "pledges": [
