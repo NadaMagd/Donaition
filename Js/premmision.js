@@ -28,7 +28,7 @@ window.addEventListener("DOMContentLoaded", function () {
   document.getElementById("logoutBtn").addEventListener("click", function () {
     localStorage.removeItem("user");
 
-    window.location.href = "pages/login.html";
+    window.location.href = "/pages/login.html";
   });
   checkPermission();
 });
